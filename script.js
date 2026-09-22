@@ -30,6 +30,7 @@ quoteForm.addEventListener("submit", function (event) {
 
 
     const name =
+
         document.getElementById("quoteName").value.trim();
 
     const email =
