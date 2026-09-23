@@ -65,9 +65,8 @@ quoteForm.addEventListener("submit", function (event) {
 
     result.textContent =
         "Your Quote Request Has Been Submitted Successfully!";
+    
         
-        
-
     result.classList.remove("text-danger");
 
     result.classList.add("text-success");

@@ -508,20 +508,17 @@
 
 
     <!-- ================= SLIDER ================= -->
-
     <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2500">
-
 
         <!-- Slides -->
         <div class="carousel-inner">
-
 
             <!-- SLIDE 1 -->
             <div class="carousel-item active">
 
                 <div class="min-vh-100 d-flex align-items-center justify-content-center" style="background-image: url('https://constra-bootstrap-site.vercel.app/images/slider-main/bg3.jpg');
-                           background-size: cover;
-                           background-position: center;">
+                       background-size: cover;
+                       background-position: center;">
 
                     <div class="container text-center text-white">
 
@@ -533,21 +530,94 @@
                             CONSTRUCTION INDUSTRY
                         </h1>
 
-
-
-
-                        <a href="#" class="btn btn-warning text-white fw-bold px-4 py-3 me-2">
+                        <a href="#" class="btn btn-warning text-white fw-bold px-4 py-3 me-2" data-bs-toggle="modal"
+                            data-bs-target="#servicesModal">
 
                             OUR SERVICES
 
                         </a>
 
-                        <a href="#" class="btn btn-outline-warning text-white fw-bold px-4 py-3">
+                        <a href="#" class="btn btn-outline-warning text-white fw-bold px-4 py-3" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">
+
+                            CONTACT NOW
+
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDE 2 -->
+            <div class="carousel-item">
+
+                <div class="min-vh-100 d-flex align-items-center justify-content-center" style="background-image: url('https://constra-bootstrap-site.vercel.app/images/slider-main/bg2.jpg');
+                       background-size: cover;
+                       background-position: center;">
+
+                    <div class="container text-center text-white">
+
+                        <h3 class="fw-bold">
+                            WE BUILD YOUR DREAMS
+                        </h3>
+
+                        <h1 class="fw-bold">
+                            QUALITY CONSTRUCTION
+                        </h1>
+
+                        <a href="#" class="btn btn-warning text-white fw-bold px-4 py-3 me-2" data-bs-toggle="modal"
+                            data-bs-target="#servicesModal">
+
+                            OUR SERVICES
+
+                        </a>
+
+                        <a href="#" class="btn btn-outline-warning text-white fw-bold px-4 py-3" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">
 
                             CONTACT NOW
 
                         </a>
 
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDE 3 -->
+            <div class="carousel-item">
+
+                <div class="min-vh-100 d-flex align-items-center justify-content-center" style="background-image: url('https://constra-bootstrap-site.vercel.app/images/slider-main/bg1.jpg');
+                       background-size: cover;
+                       background-position: center;">
+
+                    <div class="container text-center text-white">
+
+                        <h3 class="fw-bold">
+                            BUILDING THE FUTURE
+                        </h3>
+
+                        <h1 class="fw-bold">
+                            WE BUILD WITH PRIDE
+                        </h1>
+
+                        <a href="#" class="btn btn-warning text-white fw-bold px-4 py-3 me-2" data-bs-toggle="modal"
+                            data-bs-target="#servicesModal">
+
+                            OUR SERVICES
+
+                        </a>
+
+                        <a href="#" class="btn btn-outline-warning text-white fw-bold px-4 py-3" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">
+
+                            CONTACT NOW
+
+                        </a>
 
                     </div>
 
@@ -556,12 +626,10 @@
             </div>
 
         </div>
-
         <!-- END CAROUSEL INNER -->
 
 
         <!-- Previous Button -->
-
         <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
 
             <span class="carousel-control-prev-icon"></span>
@@ -574,7 +642,6 @@
 
 
         <!-- Next Button -->
-
         <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
 
             <span class="carousel-control-next-icon"></span>
@@ -585,14 +652,202 @@
 
         </button>
 
+    </div>
+
+    <!-- END SLIDER -->
+     <!-- CONTACT MODAL -->
+
+<div class="modal fade" id="contactModal" tabindex="-1"
+    aria-labelledby="contactModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+
+        <div class="modal-content">
+
+            <!-- HEADER -->
+
+            <div class="modal-header bg-warning">
+
+                <h5 class="modal-title fw-bold" id="contactModalLabel">
+                    Contact Us
+                </h5>
+
+                <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+
+            <!-- BODY -->
+
+            <div class="modal-body text-center">
+
+                <!-- PHONE -->
+
+                <p class="mb-3">
+                    <strong>📞 Phone:</strong><br>
+                    <a href="tel:+923001234567"
+                        class="text-decoration-none text-dark">
+                        +92 300 1234567
+                    </a>
+                </p>
+
+
+                <!-- EMAIL -->
+
+                <p class="mb-3">
+                    <strong>📧 Email:</strong><br>
+                    <a href="mailto:info@constra.com"
+                        class="text-decoration-none text-dark">
+                        info@constra.com
+                    </a>
+                </p>
+
+
+                <hr>
+
+
+                <!-- SOCIAL MEDIA -->
+
+                <p class="fw-bold mb-2">
+                    Follow Us
+                </p>
+
+                <div class="d-flex justify-content-center gap-3">
+
+                    <a href="#" class="text-dark fs-4">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" class="text-dark fs-4">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#" class="text-dark fs-4">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+
+                    <a href="#" class="text-dark fs-4">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
-    
-    <!-- END SLIDER -->
 
+</div>
+
+    <!-- ================= SERVICES MODAL ================= -->
+
+    <div class="modal fade" id="servicesModal" tabindex="-1" aria-labelledby="servicesModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <!-- HEADER -->
+
+                <div class="modal-header bg-warning">
+
+                    <h5 class="modal-title fw-bold" id="servicesModalLabel">
+                        OUR SERVICES
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+
+                </div>
+
+
+                <!-- BODY -->
+
+                <div class="modal-body">
+
+                    <h5 class="fw-bold">
+                        Construction Services
+                    </h5>
+
+                    <p class="text-secondary">
+                        We provide professional construction services
+                        with quality, safety and reliability.
+                    </p>
+
+                    <hr>
+
+                    <div class="mb-3">
+                        <h6 class="fw-bold">
+                            🏗️ Building Construction
+                        </h6>
+
+                        <p class="text-secondary">
+                            Complete building construction and development.
+                        </p>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <h6 class="fw-bold">
+                            🔨 Renovation
+                        </h6>
+
+                        <p class="text-secondary">
+                            Professional renovation and remodeling services.
+                        </p>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <h6 class="fw-bold">
+                            🏢 Commercial Projects
+                        </h6>
+
+                        <p class="text-secondary">
+                            Construction solutions for commercial projects.
+                        </p>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <h6 class="fw-bold">
+                            📐 Design & Planning
+                        </h6>
+
+                        <p class="text-secondary">
+                            Professional planning and project design services.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- FOOTER -->
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-warning text-white fw-bold" data-bs-dismiss="modal">
+
+                        CLOSE
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= END SERVICES MODAL ================= -->
 
     <!-- ================= ABOUT BANNER ================= -->
-    <!-- Parent wrapper: Lifted using z-index to stay on top of the slider -->
+
     <div class="position-relative" style="z-index: 10; margin-top: -60px;">
 
         <!-- Yellow Box Container -->
@@ -763,7 +1018,7 @@
 
                         <h2 class="accordion-header">
 
-                            <button class="accordion-button fw-bold text-warning" type="button"
+                            <button class="accordion-button collapsed fw-bold text-warning" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#safety">
 
                                 SAFETY
@@ -773,7 +1028,7 @@
                         </h2>
 
 
-                        <div id="safety" class="accordion-collapse collapse show" data-bs-parent="#valuesAccordion">
+                        <div id="safety" class="accordion-collapse collapse" data-bs-parent="#valuesAccordion">
 
                             <div class="accordion-body text-secondary fs-5">
 
@@ -793,7 +1048,7 @@
 
                         <h2 class="accordion-header">
 
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collpse"
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#customer">
 
                                 CUSTOMER SERVICE
