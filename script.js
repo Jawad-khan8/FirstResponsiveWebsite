@@ -48,7 +48,7 @@ quoteForm.addEventListener("submit", function (event) {
 
 
     if (
-        name === "" ||
+        name === ""  ||
         email === "" ||
         phone === "" ||
         message === ""
@@ -64,7 +64,9 @@ quoteForm.addEventListener("submit", function (event) {
 
 
     result.textContent =
-        "Your quote request has been submitted successfully!";
+        "Your Quote Request Has Been Submitted Successfully!";
+        
+        
 
     result.classList.remove("text-danger");
 
