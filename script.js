@@ -29,11 +29,11 @@ quoteForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
 
-    const name =
-
+    const name =   
+ 
         document.getElementById("quoteName").value.trim();
 
-    const email =
+    const email =   
         document.getElementById("quoteEmail").value.trim();
 
     const phone =
@@ -66,7 +66,7 @@ quoteForm.addEventListener("submit", function (event) {
     result.textContent =
         "Your Quote Request Has Been Submitted Successfully!";
     
-        
+
     result.classList.remove("text-danger");
 
     result.classList.add("text-success");
