@@ -48,7 +48,7 @@ quoteForm.addEventListener("submit", function (event) {
 
 
     if (
-        name === "" ||
+        name === ""  ||
         email === "" ||
         phone === "" ||
         message === ""
