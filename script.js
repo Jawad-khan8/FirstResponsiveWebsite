@@ -45,13 +45,14 @@ quoteForm.addEventListener("submit", function (event) {
 
     const result =
         document.getElementById("quoteResult");
+        document.getElementById
 
 
-    if (
-        name === ""  ||
-        email === "" ||
-        phone === "" ||
-        message === ""
+    if ( 
+        name ===     ""  ||
+        email ===    "" ||
+        phone ===    "" ||
+        message ===  ""  
     ) {
 
         result.textContent =
@@ -75,3 +76,4 @@ quoteForm.addEventListener("submit", function (event) {
     quoteForm.reset();
 
 });
+
