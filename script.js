@@ -1,40 +1,79 @@
-// Get A Quote buttons
+// Get A Quote Button
 
-const quoteButtons = document.querySelectorAll(".quote-btn");
-const quoteModalElement = document.getElementById("quoteModal");
-const quoteForm = document.getElementById("quoteForm");
+const quoteBtn = document.getElementById("quoteBtn");
 
-const quoteModal = quoteModalElement
-    ? bootstrap.Modal.getOrCreateInstance(quoteModalElement)
-    : null;
+const quoteModalElement =
+    document.getElementById("quoteModal");
 
-quoteButtons.forEach((quoteButton) => {
-    quoteButton.addEventListener("click", () => {
-        quoteModal?.show();
-    });
+const quoteForm =
+    document.getElementById("quoteForm");
+
+
+const quoteModal =
+    new bootstrap.Modal(quoteModalElement);
+
+
+// Button click
+
+quoteBtn.addEventListener("click", function () {
+
+    quoteModal.show();
+
 });
 
-// Quote form submission
 
-quoteForm?.addEventListener("submit", (event) => {
+// Form submit
+
+quoteForm.addEventListener("submit", function (event) {
+
     event.preventDefault();
 
-    const name = document.getElementById("quoteName").value.trim();
-    const email = document.getElementById("quoteEmail").value.trim();
-    const phone = document.getElementById("quotePhone").value.trim();
-    const message = document.getElementById("quoteMessage").value.trim();
-    const result = document.getElementById("quoteResult");
 
-    if (!name || !email || !phone || !message) {
-        result.textContent = "Please fill all fields.";
-        result.classList.remove("text-success");
+    const name =
+
+        document.getElementById("quoteName").value.trim();
+
+    const email =
+        document.getElementById("quoteEmail").value.trim();
+
+    const phone =
+        document.getElementById("quotePhone").value.trim();
+
+    const message =
+        document.getElementById("quoteMessage").value.trim();
+
+
+    const result =
+        document.getElementById("quoteResult");
+        document.getElementById
+
+
+    if ( 
+        name ===     "" ||
+        email ===    "" ||
+        phone ===    "" ||
+        message ===  ""  
+    ) {
+
+        result.textContent =
+            "Please fill all fields."; 
+
         result.classList.add("text-danger");
+
         return;
     }
 
-    result.textContent = "Your Quote Request Has Been Submitted Successfully!";
+
+    result.textContent = 
+        "Your Quote Request Has Been Submitted Successfully!";
+
+
     result.classList.remove("text-danger");
+
     result.classList.add("text-success");
+
+
     quoteForm.reset();
+
 });
 

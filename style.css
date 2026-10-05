@@ -139,9 +139,20 @@ img {
     min-height: 650px;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(90deg, rgba(10, 18, 29, 0.88) 0%, rgba(10, 18, 29, 0.7) 48%, rgba(10, 18, 29, 0.24) 100%), url("asserts/project6.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.home-two .hero-two--one {
+    background-image: linear-gradient(90deg, rgba(10, 18, 29, 0.88) 0%, rgba(10, 18, 29, 0.7) 48%, rgba(10, 18, 29, 0.24) 100%), url("asserts/project6.jpg");
+}
+
+.home-two .hero-two--two {
+    background-image: linear-gradient(90deg, rgba(10, 18, 29, 0.88) 0%, rgba(10, 18, 29, 0.66) 48%, rgba(10, 18, 29, 0.3) 100%), url("asserts/project2.jpg");
+}
+
+.home-two .hero-two--three {
+    background-image: linear-gradient(90deg, rgba(10, 18, 29, 0.88) 0%, rgba(10, 18, 29, 0.68) 48%, rgba(10, 18, 29, 0.28) 100%), url("asserts/project4.jpg");
 }
 
 .home-two .eyebrow {
@@ -158,9 +169,27 @@ img {
     line-height: 0.98;
 }
 
+.home-two .hero-heading {
+    max-width: 760px;
+    font-size: clamp(2.5rem, 6vw, 5.4rem);
+    line-height: 0.98;
+}
+
 .home-two .hero-two p {
     max-width: 620px;
     font-size: 1.1rem;
+}
+
+.home-two .hero-slider .carousel-indicators button {
+    width: 2.25rem;
+    height: 0.24rem;
+    border: 0;
+    border-radius: 999px;
+}
+
+.home-two .hero-slider .carousel-control-prev,
+.home-two .hero-slider .carousel-control-next {
+    width: 8%;
 }
 
 .home-two .btn-warning {
