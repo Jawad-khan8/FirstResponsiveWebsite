@@ -15,6 +15,8 @@ const quoteModal =
 
 // Button click
 
+
+
 quoteBtn.addEventListener("click", function () {
 
     quoteModal.show();
